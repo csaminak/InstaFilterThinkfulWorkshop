@@ -6,6 +6,7 @@ function revertFilter() {
 
 function addFilter() {
   Caman('#bourbon', function() {
-
+    this.brightness(10);
+    this.render();
   });
 }
