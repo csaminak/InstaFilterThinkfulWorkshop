@@ -17,7 +17,9 @@ function addFilter1() {
 function addFilter2() {
   Caman('#bourbon', function() {
     this['sunrise']();
-    // this.brightness(-10);
+    this.stackBlur(1);
+    this.exposure(10);
+    this.vibrance(30);
     this.render();
   });
 }
